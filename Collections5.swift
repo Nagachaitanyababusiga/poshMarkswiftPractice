@@ -104,6 +104,12 @@ arr.forEach{print($0)}
 //sorted
 print(arr.sorted())
 
+//prefix,suffix,drop
+print(arr.prefix(3))
+print(arr.suffix(3))
+print(arr.dropFirst(2))
+print(arr)
+
 //enumarated
 for (index,value) in arr.enumerated(){
     print("at \(index): \(value)")
